@@ -2,9 +2,9 @@
 var letters= ["a", "b", "c", "d", "e"];
 var tried=[];
 // defining variable
-var wins=0;
-var losses=0;
-var lives=10;
+var wins = 0;
+var losses = 0;
+var lives = 10;
 
 
 // on functions that will load on any keypress
@@ -29,15 +29,14 @@ document.onkeyup = function(event){
         tried.push(userInput)
     };
 
-    if(lives=0){
+    if(lives<1){
         losses++;
         lives=10;
-        wins=0;
     };
    
     console.log(tried);
     // shows stats
-    document.getElementById("test").innerHTML="This round have tried "+ [tried];
+    document.getElementById("guessed").innerHTML="This round have tried: "+ [tried];
     document.getElementById("wins").innerHTML="You have won " + wins + " times!";
     document.getElementById("losses").innerHTML="Losses: " +losses;
     document.getElementById("lives").innerHTML="lives remaining: " + lives;

@@ -1,0 +1,26 @@
+body{
+    background-image: url(../image/background.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.row{
+    /* background-color: rgba(0, 15, 137, 0.4); */
+    font-size: 30px;
+}
+#WinRow{
+    color: rgb(0, 15, 137);
+}
+#LoseRow{
+   color: rgb(137, 0, 0);
+}
+#LivesRow{
+    color: rgb(46, 161, 22);
+}
+#GuessedRow{
+    color: rgb(122, 22, 161);
+    
+}

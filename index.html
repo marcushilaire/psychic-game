@@ -6,25 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Psychic Game</title>
     <script src="./assets/javascript/game.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/style/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/style/style.css">
 </head>
 <body>
-    <h1> The Psychic Game</h1>
-    <p>
-        Guess what letter I'm thinking of
-    </p>
-    <div id="wins">
-        You
+<div class="container">
+    <div class="row">
+        <h1> The Psychic Game</h1>
+            <p>
+                Guess what letter I'm thinking of
+            </p>
     </div>
-    <div id="losses">
-        Losses
+    <div class="row" id=WinRow>
+        <div id="wins"></div>
     </div>
-    <div id="lives">
-        Lives
-    </div>
-    <div id="test">test</div>
-    <div id="guesses">
 
+    <div class="row" id=LoseRow>
+        <div id="losses"></div>
+    </div>
+
+    <div class="row" id=LivesRow>    
+        <div id="lives"></div>
     </div>
     
+    <div class="row" id=GuessedRow>    
+        <div id="guessed"></div>
+    </div>
+</div> <!-- Container-->
 </body>
 </html>
