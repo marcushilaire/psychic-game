@@ -23,7 +23,7 @@ function randomLetter(){
     reset();
     stats();
     
-    console.log(letterSelector);
+    console.log("I am thinking " + letterSelector);
 
 
     document.onkeyup = function(event){ 
