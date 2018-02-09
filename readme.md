@@ -6,4 +6,5 @@
 * Pressing a key is all that is required to enter a guess.
 * If you guess incorrectly you will lose a life. If you  lose all your lives you lose the round and another round begins.
 * If you guess correctly you win the round and another round begins.
-#hint
+## hint
+* view the console if you want to cheat
